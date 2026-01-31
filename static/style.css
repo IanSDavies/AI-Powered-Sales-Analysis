@@ -1,0 +1,108 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.container-fluid {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+/* Scrollable graph wrapper */
+.scroll-x {
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+/* Plotly fix */
+.plot-container .plotly-graph-div {
+  width: 100% !important;
+}
+
+/* ===================== AI Recommendations ===================== */
+
+.recommendations-box {
+  margin-top: 24px;
+  padding: 20px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #e0f2fe, #eef5ff);
+  border: 1px solid #bfdbfe;
+  box-shadow: 0 4px 12px rgba(0, 50, 150, 0.12);
+}
+
+.recommendations-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+
+.recommendations-header h4 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 800;
+  color: #1e3a8a;
+}
+
+.powered-by {
+  font-size: 11px;
+  color: #475569;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.recommendations-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Recommendation Cards */
+.rec-card {
+  background: linear-gradient(135deg, #ffffff, #f0f7ff);
+  border-left: 6px solid #3b82f6;
+  border-radius: 12px;
+  padding: 16px 20px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+.rec-title {
+  font-size: 17px;
+  font-weight: 800;
+  color: #1e3a8a;
+  margin-bottom: 8px;
+}
+
+.rec-body {
+  font-size: 14px;
+  color: #1e293b;
+  margin-left: 6px;
+  margin-bottom: 6px;
+}
+
+/* Bullet items */
+.rec-bullet {
+  font-size: 14px;
+  margin-left: 18px;
+  padding-left: 12px;
+  border-left: 3px solid #2563eb;
+  color: #334155;
+  line-height: 1.4;
+  margin-bottom: 4px;
+}
+
+.rec-bullet::before {
+  content: "• ";
+  color: #1e40af;
+  font-weight: bold;
+}
+
+/* Force all table headers to align left */
+table th {
+  text-align: left !important;
+}
+
+/* Optional: Align the data cells left as well if they are leaning */
+table td {
+  text-align: left !important;
+}
