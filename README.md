@@ -4,6 +4,12 @@
 
 ---
 
+![Sales Analysis Query Image](Images/AI_Powered_Recommendations.jpg)
+
+![Sales Analysis Query Image](Images/TotalSalesByYear.jpg)
+
+---
+
 ## How to Run
 
 1. Install the required packages:
@@ -39,10 +45,18 @@ This structure helps the LLM stay focused on data-driven insights and avoids gen
 
 ---
 
+![Sales Analysis Query Image](Images/SalesAnalysis_Query.jpg)
+
+---
+
 # API Choice
 This project uses:
 * Google Gemini 2.5 Flash (Free Tier)
 * Obtained from Google AI Studio: https://ai.google.dev
 * Called through a simple requests.post() API call
+
+---
+
+![Sales Analysis Query Image](Images/ProfitByRegion.jpg)
 
 ---
